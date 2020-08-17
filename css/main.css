@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+}
+
+input, label {
+  display: block;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.label-and-input {
+  margin: 15px 20px;
+}
+
+/* CSS for targeting elements with certain attributes */
+input[type="text"] {
+  height: 30px;
+  min-width: 200px;
+  padding: 5px 10px;
+}

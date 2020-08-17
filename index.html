@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- use relative links without a slash in front -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Form Examples</title>
+  </head>
+  <body>
+
+
+    <section class="form-container">
+      <h2>A penny for your thoughts...</h2>
+      <hr>
+      <!-- <form id="test-forms" action="http://www.example.com" method="get"> -->
+      <form id="test-forms">
+        <div class="label-and-input">
+          <label for="joke-count">How many jokes would you like to see?</label>
+          <input id="joke-count" name="joke-count" type="text" value="" />
+        </div>
+        <input type="submit" value="Send My Feedback">
+      </form>
+    </section>
+
+
+    <!--Where our data response goes-->
+    <ul id="joke-response">
+      
+    </ul>
+    <script src="js/main.js"></script>
+  </body>
+</html>
